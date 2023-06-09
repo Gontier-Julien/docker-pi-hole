@@ -10,6 +10,7 @@ RUN apt-get update \
         ca-certificates \
         git \
         sudo \
+        binutils \
     && rm -rf /var/lib/apt/lists/*
 
 
