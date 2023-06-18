@@ -60,9 +60,9 @@ export PIHOLE_SKIP_OS_CHECK=true
 
 git clone https://github.com/pi-hole/adminLTE /var/www/html/admin
 cd /var/www/html/admin
-git checkout devel-v6
+git checkout development-v6
 
-echo "new/http" | tee /etc/pihole/ftlbranch
+echo "development-v6" | tee /etc/pihole/ftlbranch
 
 git clone https://github.com/pi-hole/pi-hole /etc/.pihole
 cd /etc/.pihole
